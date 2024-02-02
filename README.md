@@ -9,5 +9,6 @@ Currently, two official plugins are available:
 
 The screenshot of the mini web application is given below:
 
-![image](https://github.com/ayse0yalcinkaya/cards/assets/157410355/518ac94a-721b-4973-aa29-3d06710b2dd9)
+![image](https://github.com/ayse0yalcinkaya/cards/assets/157410355/b1c13ca7-715f-49f6-ab7f-145089b0ab04)
+
 
