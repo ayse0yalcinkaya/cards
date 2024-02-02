@@ -14,7 +14,7 @@ function App() {
       <section className="hero is-link">
         <div className="hero-body">
           <p className="title">
-            My Course
+            My Courses
           </p>
         </div>
       </section>
