@@ -6,20 +6,33 @@
 //     )
 // }
 //ffc - functional component
-function Course2({ title, description }) {
+function Course2({ image, title, description }) {
     // console.log(props);
-    console.log({title, description});
+    //console.log({title, description});
 
     // const title = props.title;
     // const description = props.description;
 
     //const { title, description } = props;
     return (
-        <div>
-            <div>{title}</div>
-            <div>{description}</div>
-        </div>
+        <div className="card">
+            <div className="card-image">
+                <figure className="image is-4by3">
+                    <img src={image} alt="My Course" />
+                </figure>
+            </div>
+            <div className="card-content">
+                <div className="media">
+                    <div className="media-content">
+                        <p className="title is-4">{title}</p>
+                    </div>
+                </div>
 
+                <div className="content">
+                    {description}
+                </div>
+            </div>
+        </div>
     );
 }
 
